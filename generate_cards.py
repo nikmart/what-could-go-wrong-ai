@@ -6,7 +6,6 @@ A script to generate high-resolution playing cards from CSV data
 import os
 import csv
 from PIL import Image, ImageDraw, ImageFont
-import textwrap
 import multiprocessing
 from functools import partial
 
@@ -22,12 +21,12 @@ CARD_HEIGHT = int(89 * MM_TO_PIXELS)
 MARGIN = int(5 * MM_TO_PIXELS)
 TEXT_BOX_WIDTH = CARD_WIDTH - (2 * MARGIN)
 TEXT_BOX_HEIGHT = CARD_HEIGHT - (2 * MARGIN)
-TEXT_BOX_TOP = int(CARD_HEIGHT * 0.15)
+TEXT_BOX_TOP = int(CARD_HEIGHT * 0.12)
 
 # Font Settings
 FONT_SIZE_MAIN = int(CARD_HEIGHT * 0.07)
 FONT_SIZE_NUMBER = int(CARD_HEIGHT * 0.04)
-MAIN_FONT = "Arial Bold.ttf"
+MAIN_FONT = "Bitter-Bold.ttf"
 
 # Colors
 PROMPT_BG_COLOR = (0, 0, 0)
