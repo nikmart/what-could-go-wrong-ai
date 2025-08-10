@@ -1,7 +1,12 @@
-# Project specific
+# Project specific - Card images
 PROMPTS/*.png
 RESPONSES/*.png
 CARD IMAGES/*.png
+CARD\ IMAGES/*.png
+**/CARD IMAGES/**/*.png
+**/PROMPTS/**/*.png
+**/RESPONSES/**/*.png
+*.png
 
 # Python
 __pycache__/
