@@ -9,7 +9,7 @@ While AI has the potential to greatly improve our daily lives, there are also ch
 
 ## Game Setup Instructions
 1. Download this repository
-2. Go to https://playingcards.io/game/standard-deck to start a custom deck
+2. Go to https://playingcards.io/game/standard-deck and choose "Start a Blank Room"
 3. Enter the virtual card table
 4. Click the `Edit Table` icon in the green toolbard
 5. Select `Room Options`
