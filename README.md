@@ -5,7 +5,7 @@ This repository hosts the files used for the What Could Go Wrong? digital card g
 The digital card game can be loaded into and played on PlayingCards.io. Custom cards can be added using the `csv` files for `prompts` and `responses`
 
 ## Abstract
-While autonomous vehicles have the potential to greatly improve our daily lives, there are also challenges and potential downsides to these systems. In this workshop, we intend to foster discussions about the potential negative aspects of autonomous cars in hopes of surfacing challenges that should be considered during the design process rather than after deployment. We will spur these conversations through a review of participant position statements and through group discussion facilitated by a card game called “What Could Go Wrong?” Our goal is to consider the autonomous vehicle’s benefits—improving safety, increasing mobility, reducing emissions—against potential drawbacks. By identifying potential harms and downsides, the workshop attendees, and the AutoUI community more broadly can design well-considered solutions.
+While AI has the potential to greatly improve our daily lives, there are also challenges and potential downsides to these systems. This game aims to foster discussions about the potential negative aspects of AI in hopes of surfacing challenges that should be considered during the design process rather than after deployment.
 
 ## Game Setup Instructions
 1. Download this repository
@@ -72,5 +72,6 @@ For some motivation on why we want to develop new hazard analysis games.
   year={2022}
 }
 ```
+
 
 
