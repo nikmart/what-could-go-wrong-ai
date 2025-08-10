@@ -83,10 +83,10 @@ def create_card(text, card_number, output_path, bg_color, text_color):
     # Save image
     image.save(output_path, 'PNG', dpi=(DPI, DPI))
 
-def create_card_back(output_path):
+def create_card_back(output_path, bg_color, text_color):
     """Create a card back with 'What Could Go Wrong?' text."""
-    # Create image with black background
-    image = Image.new('RGB', (CARD_WIDTH, CARD_HEIGHT), PROMPT_BG_COLOR)
+    # Create image with specified background color
+    image = Image.new('RGB', (CARD_WIDTH, CARD_HEIGHT), bg_color)
     draw = ImageDraw.Draw(image)
     
     # Use larger font size for card back
@@ -106,7 +106,7 @@ def create_card_back(output_path):
     line_height = int(larger_font_size * 1.4)  # Increased line height for better readability
     
     for line in lines:
-        draw.text((MARGIN, y), line, font=main_font, fill=PROMPT_TEXT_COLOR)
+        draw.text((MARGIN, y), line, font=main_font, fill=text_color)
         y += line_height
     
     # Save image
@@ -232,8 +232,9 @@ def main():
     process_csv('prompts-ai.csv', 'CARD IMAGES/PROMPT', PROMPT_BG_COLOR, PROMPT_TEXT_COLOR)
     process_csv('responses-ai.csv', 'CARD IMAGES/RESPONSE', RESPONSE_BG_COLOR, RESPONSE_TEXT_COLOR)
     
-    # Create card back
-    create_card_back('CARD IMAGES/card_back.png')
+    # Create card backs
+    create_card_back('CARD IMAGES/prompt_back_black.png', PROMPT_BG_COLOR, PROMPT_TEXT_COLOR)
+    create_card_back('CARD IMAGES/response_back_white.png', RESPONSE_BG_COLOR, RESPONSE_TEXT_COLOR)
     
     # Create instruction card with QR code
     create_instruction_card('wcgw-instructions-qr.png', 'https://nikmartelaro.com/what-could-go-wrong-ai/', 'CARD IMAGES/instructions.png')
