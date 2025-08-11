@@ -54,6 +54,39 @@ While AI has the potential to greatly improve our daily lives, there are also ch
 ## Adding new cards
 Edit the `prompts.csv` and `responses.csv` to add new cards to the decks. Follow instrcutions for adding new cards here: https://playingcards.io/docs/custom-decks
 
+## Creating Printable Cards
+
+If you want to create physical, printable cards from the CSV data, you can use the included `generate_cards.py` script.
+
+### How it works
+The script reads the `prompts-ai.csv` and `responses-ai.csv` files and generates high-resolution PNG images for each card:
+
+- **Prompt cards**: Black background with white text
+- **Response cards**: White background with black text  
+- **Card backs**: Custom "What Could Go Wrong?" design
+- **Instruction card**: Includes QR code linking to game instructions
+
+### Requirements
+- Python 3.x
+- PIL/Pillow library (`pip install Pillow`)
+- The `Bitter-Bold.ttf` font file (included in repository)
+
+### Usage
+1. Ensure your CSV files are in the repository root
+2. Run: `python generate_cards.py`
+3. Generated cards will be saved in the `CARD IMAGES/` folder:
+   - `PROMPT/` - Black prompt cards
+   - `RESPONSE/` - White response cards
+   - Card backs and instruction card
+
+### Output Specifications
+- **Resolution**: 1200 DPI for print quality
+- **Dimensions**: 825x1125 pixels (standard playing card ratio)
+- **Format**: PNG with transparent backgrounds
+- **Text**: Automatically wrapped and centered for readability
+
+The generated images can be sent to a print service such as The Game Crafter for professional card printing.
+
 ## Suggested Citation
 Nikolas Martelaro and Wendy Ju. 2020. What Could Go Wrong? Exploring the Downsides of Autonomous Vehicles. In *12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications* (*AutomotiveUI '20*). Association for Computing Machinery, New York, NY, USA, 99–101. DOI:https://doi.org/10.1145/3409251.3411734
 
