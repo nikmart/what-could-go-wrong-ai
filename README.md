@@ -7,7 +7,7 @@ The digital card game can be loaded into and played on PlayingCards.io. Custom c
 ## Abstract
 While AI has the potential to greatly improve our daily lives, there are also challenges and potential downsides to these systems. This game aims to foster discussions about the potential negative aspects of AI in hopes of surfacing challenges that should be considered during the design process rather than after deployment.
 
-## Game Setup Instructions
+## Game Setup Instructions For playingcards.io
 1. Download this repository
 2. Go to https://playingcards.io/game/standard-deck and choose "Start a Blank Room"
 3. Enter the virtual card table
@@ -18,21 +18,35 @@ While AI has the potential to greatly improve our daily lives, there are also ch
 8. Click `Edit Table` to exit editing mode and go into gameplay mode
 
 ## Gameplay Instructions
-1. All players draw 5 white cards from their stack 
-2. Click the spinner to choose the first player who will be the Card Czar.
-3. The Card Czar then pulls a black prompt card and reads it to the group 
-4. All other players then put 1 white response card face down in their slot.
-5. The Card Czar then flips and reads each white card out loud.
-6. The Card Czar picks one of the white cards to further discuss. +1 point goes to the player whose card was chosen.
-7. The group then discusses further what else could go wrong based on the chosen card. People can award +1 point anyone who makes a good point in discussion.
-8. After the discussion dissipates after a few minutes, the next player becomes the Card Czar and clicks the “Deal” button. Each player then draws a new white card, so that they again have 5 cards in their hand.
 
-### During the game
-1. Take notes on ideas that you have not thought about before
-2. Some of the cards are causes, others are effects. Don’t worry about what the game designers intended with each card, go where the discussion is best.
-3. Some of the cards may be upsetting. (Such as, a person is abused.)
-4. It’s fine to take time to have discussion.
-5. Try not to get side tracked, though!
+### Setup
+1. Each player draws 5 white response cards from their stack
+2. Click the spinner to randomly choose the first Card Czar
+
+### Each Round
+1. **The Card Czar** draws a black prompt card and reads it aloud to the group
+2. **All other players** select 1 white response card from their hand and place it face down in their designated slot
+3. **The Card Czar** flips and reads each white response card out loud
+4. **The Card Czar** chooses the response card they think best answers the prompt
+5. **+1 point** goes to the player whose card was chosen
+6. **Group Discussion**: The group discusses what else could go wrong based on the chosen card
+   - Players can award **+1 point** to anyone who makes a good point during discussion
+   - Discussion should last a few minutes
+7. **Next Round**: The next player becomes the Card Czar
+   - Click the "Deal" button to give each player a new white card
+   - All players should have 5 cards in their hand at the start of each round
+
+### Game Flow
+- The role of Card Czar rotates clockwise around the table
+- Continue playing until you decide to stop or run out of cards
+- The player with the most points at the end wins!
+
+### Important Notes
+- **Take notes** on ideas you haven't thought about before
+- **Don't worry about card categories** - some cards are causes, others are effects. Go where the discussion leads
+- **Content warning**: Some cards may contain upsetting content (e.g., abuse, harm)
+- **Take your time** - meaningful discussion is encouraged
+
 
 ### Video Demonstration
 [![What could go wrong card game demonstration](https://img.youtube.com/vi/DlqgWnhEqoc/0.jpg)](https://youtu.be/DlqgWnhEqoc)
