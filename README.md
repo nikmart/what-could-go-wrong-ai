@@ -11,7 +11,7 @@ While AI has the potential to greatly improve our daily lives, there are also ch
 1. Download this repository
 2. Go to https://playingcards.io/game/standard-deck and choose "Start a Blank Room"
 3. Enter the virtual card table
-4. Click the `Edit Table` icon in the green toolbard
+4. Click the `Edit Table` icon in the green toolbar
 5. Select `Room Options`
 6. Select  `Import From File`
 7. Upload `what-could-go-worng-av.pcio`
